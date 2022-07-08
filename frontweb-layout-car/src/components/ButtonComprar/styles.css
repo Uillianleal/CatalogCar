@@ -1,0 +1,39 @@
+.btn-iconn {
+  width: 174px;
+  height: 40px;
+  background-color: #00285f;
+  border-radius: 5px;
+}
+
+.btn-iconn h6 {
+  color: #fff;
+  font-size: 14px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+@media (min-width: 576px) {
+  .btn-iconn {
+    width: 220px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-iconn {
+    width: 307px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-iconn {
+    width: 257px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-iconn {
+    width: 266px;
+  }
+}

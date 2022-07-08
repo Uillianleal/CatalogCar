@@ -1,0 +1,46 @@
+.main-nav {
+  padding-left: 20px;
+  min-height: 80px;
+}
+
+.nav-end {
+  justify-content: end;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
+  font-size: 25px;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.main-menu a {
+  color: #00285f;
+  padding: 5px;
+}
+
+.main-menu a:hover {
+  color: #00285f;
+}
+
+.main-menu a.active {
+  color: #00285f;
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    padding-left: 150px;
+    min-height: 80px;
+  }
+  .nav-end {
+    justify-content: end;
+    padding-right: 150px;
+  }
+}

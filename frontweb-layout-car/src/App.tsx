@@ -1,9 +1,11 @@
 
+import './assets/styles/custom.scss';
 import './App.css';
+import Roustes from 'Routes';
 
-function App() {
+const App = () => {
   return (
-    <h1>Hello Wolrd</h1>
+    <Roustes/> 
   );
 }
 
